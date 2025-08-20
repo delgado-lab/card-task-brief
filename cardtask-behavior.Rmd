@@ -15,7 +15,7 @@ library("tidyverse")
 ```{r read-files, message=FALSE}
 pid_list <- c("1001","1002") #list of participant IDs as text strings
 ses_list <- c("session1","session2") #list of sessions for each participant
-block_list <- c("money","cigarette","social") #list of reward types
+block_list <- c("money") #,"cigarette","social") #list of reward types
 
 taskname <- "cardtask"
 expdir <- "/path/to/cardtask"
