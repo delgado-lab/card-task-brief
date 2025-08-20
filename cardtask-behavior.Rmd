@@ -1,0 +1,77 @@
+---
+title: "cardtask-behavior"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+library("tidyverse")
+```
+
+## import data from csv files generated from psychopy. 
+## output *_events.tsv files with trial timing information in BIDS format 
+
+```{r read-files, message=FALSE}
+pid_list <- c("1001","1002") #list of participant IDs as text strings
+ses_list <- c("session1","session2") #list of sessions for each participant
+block_list <- c("money","cigarette","social") #list of reward types
+
+taskname <- "cardtask"
+expdir <- "/path/to/cardtask"
+BIDSdir <- "/path/to/cardtask/BIDS"
+
+for (pid in pid_list) {
+  for (ses in ses_list) {
+    filename <- 
+      Sys.glob(sprintf("%s/behavioral/ses-%s/%s*_card-task-brief*.csv",
+                       expdir,ses,pid))[1]
+    #cat(filename)
+    card_tib <- read_csv(filename,col_types=cols())
+    trigtime <- card_tib %>% drop_na(firstTrialITI.started) %>% 
+      select(firstTrialITI.started) %>% first()
+    events_wide_tib <- card_tib %>% 
+      filter((blocktype %in% block_list) &
+               !(is.na(quest_rew.started) & is.na(quest_pun.started))
+             ) %>% 
+      mutate(
+        resp_onset = if_else(win1lose0==1,quest_rew.started - trigtime,
+                             quest_pun.started-trigtime),
+        resp_duration = 2,
+        resp_rt = if_else(win1lose0==1, response_rew.rt, response_pun.rt),
+        resp_trialtype = case_when(
+          blockcode == 1 & (response_rew.rt > 0 | response_pun.rt > 0) ~ "money_input",
+          blockcode == 2 & (response_rew.rt > 0 | response_pun.rt > 0) ~ "cig_input",
+          blockcode == 3 & (response_rew.rt > 0 | response_pun.rt > 0)~ "social_input",
+          is.na(response_rew.rt) & is.na(response_pun.rt) ~ "miss" 
+        ),
+        fdbk_onset = if_else(win1lose0==1,feedback_rew.started - trigtime,
+                             feedback_pun.started - trigtime),
+        fdbk_duration = 1,
+        fdbk_trialtype = case_when(
+          blockcode == 1 & win1lose0 == 1 & response_rew.rt > 0 ~ "money_gain",
+          blockcode == 1 & win1lose0 == 0 & response_pun.rt > 0 ~ "money_loss",
+          blockcode == 2 & win1lose0 == 1 & response_rew.rt > 0 ~ "cig_gain",
+          blockcode == 2 & win1lose0 == 0 & response_pun.rt > 0 ~ "cig_loss",
+          blockcode == 3 & win1lose0 == 1 & response_rew.rt > 0 ~ "social_high",
+          blockcode == 3 & win1lose0 == 0 & response_pun.rt > 0 ~ "social_low",
+          is.na(response_rew.rt) & is.na(response_pun.rt) ~ "miss" 
+        ) 
+      ) %>% select(resp_onset:fdbk_trialtype) %>% 
+      mutate(across(where(is.numeric),round,digits=3))
+    events_tib <- events_wide_tib %>% 
+      pivot_longer(everything(),names_to = c("type",".value"), 
+                   names_pattern = "(.*)_(.*)") %>% 
+      rename(response_time = rt, trial_type = trialtype) %>% select(-type)
+
+    # write events.tsv file
+    outfile = sprintf(
+      "%s/sub-%s/ses-%s/func/sub-%s_ses-%s_task-%s_run-01_events.tsv",
+      BIDSdir,pid,ses,pid,ses,taskname)
+    events_tib %>% write_delim(outfile, delim = "\t")
+    num_missing <- sum(events_tib$trial_type == "miss") /2
+    cat(sprintf("number of misses for sub %s ses-%s: %f",pid,ses,num_missing))
+  }  
+}  
+```
+

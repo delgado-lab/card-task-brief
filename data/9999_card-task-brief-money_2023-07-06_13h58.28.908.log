@@ -1,0 +1,318 @@
+6.5376 	WARNING 	Monitor specification not found. Creating a temporary one...
+7.6804 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+7.6812 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fb1019d9ee0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fb115893160>, multiSample=False, name='window1', numSamples=2, pos=[374.0, 241.75], screen=0, size=array([2992, 1934]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.6814 	EXP 	window1: mouseVisible = True
+7.6837 	EXP 	window1: mouseVisible = False
+7.6837 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.6838 	EXP 	window1: recordFrameIntervals = False
+7.7750 	EXP 	window1: recordFrameIntervals = True
+8.6119 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+8.6685 	EXP 	Created Inst1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='Inst1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+8.6687 	EXP 	window1: mouseVisible = False
+8.6764 	EXP 	Created Inst1_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='Inst1_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+8.7034 	EXP 	Created Inst1_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Inst1_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+8.7065 	EXP 	Created Inst1_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='Inst1_4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='The task will begin in a few moments.', units='norm', win=Window(...), wrapWidth=1)
+8.7091 	EXP 	Created firstTrialITI = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='firstTrialITI', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='norm', win=Window(...), wrapWidth=1)
+8.7176 	EXP 	Created text_block = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_block', opacity=1.0, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text='In this block of trials, you will try to win:', units='norm', win=Window(...), wrapWidth=1)
+8.7193 	EXP 	Created text_blocktype = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='text_blocktype', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.7222 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='.', units='norm', win=Window(...), wrapWidth=1)
+8.7252 	EXP 	Created rect_resp_rew = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5, name='rect_resp_rew', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+8.7385 	EXP 	Created quest_rew = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0, italic=False, languageStyle='LTR', name='quest_rew', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='?', units='norm', win=Window(...), wrapWidth=1)
+8.7391 	EXP 	Created ITI1_rew = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ITI1_rew', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.7399 	EXP 	Created rect_out_rew = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5, name='rect_out_rew', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+8.7404 	EXP 	Created feedback_rew = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0, italic=False, languageStyle='LTR', name='feedback_rew', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.7408 	EXP 	Created display_rew = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0, italic=False, languageStyle='LTR', name='display_rew', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.7412 	EXP 	Created ITI2_rew = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ITI2_rew', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.7458 	EXP 	Created image_rew = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_rew', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='norm', win=Window(...))
+8.7492 	EXP 	Created image_greencheck = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_greencheck', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='norm', win=Window(...))
+8.7501 	EXP 	Created rect_resp_pun = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5, name='rect_resp_pun', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+8.7516 	EXP 	Created quest_pun = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0, italic=False, languageStyle='LTR', name='quest_pun', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='?', units='norm', win=Window(...), wrapWidth=1)
+8.7521 	EXP 	Created ISI2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ISI2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.7529 	EXP 	Created rect_out_pun = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5, name='rect_out_pun', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+8.7534 	EXP 	Created feedback_pun = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0, italic=False, languageStyle='LTR', name='feedback_pun', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.7539 	EXP 	Created display_pun = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0, italic=False, languageStyle='LTR', name='display_pun', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=0.2)
+8.7543 	EXP 	Created ITI2_pun = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ITI2_pun', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.7576 	EXP 	Created image_pun = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_pun', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='norm', win=Window(...))
+8.7604 	EXP 	Created image_redx = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_redx', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='norm', win=Window(...))
+8.7702 	EXP 	Created Finished = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Finished', opacity=1.0, ori=0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text='Thanks for playing!\n\nYour total:', units='norm', win=Window(...), wrapWidth=1)
+8.7708 	EXP 	Created Total_display = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='Total_display', opacity=1.0, ori=0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.7738 	WARNING 	t of last frame was 162.11ms (=1/6)
+8.7738 	EXP 	Inst1: autoDraw = True
+10.7873 	DATA 	Keypress: 1
+10.7931 	EXP 	Inst1: autoDraw = False
+10.7931 	EXP 	Inst1_2: autoDraw = True
+13.2005 	DATA 	Keypress: 1
+13.2060 	EXP 	Inst1_2: autoDraw = False
+13.2060 	EXP 	Inst1_3: autoDraw = True
+18.4983 	DATA 	Keypress: 1
+18.5038 	EXP 	Inst1_3: autoDraw = False
+18.5038 	EXP 	Inst1_4: autoDraw = True
+18.8442 	WARNING 	t of last frame was 22.43ms (=1/44)
+21.9583 	WARNING 	t of last frame was 20.04ms (=1/49)
+22.1667 	DATA 	Keypress: t
+22.1753 	EXP 	Inst1_4: autoDraw = False
+22.1753 	EXP 	firstTrialITI: autoDraw = True
+26.1797 	EXP 	Imported design/card-task-brief-blocks.csv as conditions, 1 conditions, 2 params
+26.1807 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+26.1813 	EXP 	New trial (rep=0, index=0): OrderedDict([('blocktype', 'money'), ('blockcode', 1)])
+26.1938 	EXP 	Imported design/card-task-brief-trials.csv as conditions, 20 conditions, 1 params
+26.1944 	EXP 	Created sequence: random, trialTypes=20, nReps=1, seed=None
+26.1947 	EXP 	New trial (rep=0, index=0): OrderedDict([('win1lose0', 0)])
+26.1951 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+26.1954 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+26.1955 	EXP 	New trial (rep=0, index=0): None
+26.2129 	WARNING 	t of last frame was 51.02ms (=1/19)
+26.2129 	EXP 	firstTrialITI: autoDraw = False
+26.2129 	EXP 	firstTrialITI: autoDraw = False
+26.2129 	EXP 	text_blocktype: height = 0.15
+26.2129 	EXP 	text_blocktype: height = 0.15
+26.2129 	EXP 	text_blocktype: height = 0.15
+26.2129 	EXP 	text_blocktype: text = 'money'
+26.2129 	EXP 	text_block: autoDraw = True
+26.2129 	EXP 	text_block: autoDraw = False
+26.2129 	EXP 	text_blocktype: autoDraw = True
+26.2129 	EXP 	text_blocktype: autoDraw = False
+26.2129 	EXP 	fixation: autoDraw = True
+26.2129 	EXP 	fixation: autoDraw = False
+26.2129 	EXP 	text_block: autoDraw = False
+26.2129 	EXP 	text_blocktype: autoDraw = False
+26.2129 	EXP 	fixation: autoDraw = False
+26.2129 	EXP 	quest_pun: height = 0.14
+26.2129 	EXP 	ISI2: height = 0.1
+26.2129 	EXP 	ISI2: height = 0.1
+26.2129 	EXP 	ISI2: height = 0.1
+26.2129 	EXP 	ISI2: text = '+'
+26.2129 	EXP 	rect_resp_pun: autoDraw = True
+26.2129 	EXP 	quest_pun: autoDraw = True
+26.2129 	EXP 	quest_pun: height = 0.14
+26.2129 	EXP 	quest_pun: height = 0.14
+26.2129 	EXP 	quest_pun: height = 0.14
+26.2129 	EXP 	quest_pun: text = '?'
+28.1862 	EXP 	ISI2: autoDraw = True
+28.2017 	EXP 	rect_resp_pun: autoDraw = False
+28.2017 	EXP 	quest_pun: autoDraw = False
+29.2319 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+29.2319 	EXP 	ISI2: autoDraw = False
+29.2319 	EXP 	rect_resp_pun: autoDraw = False
+29.2319 	EXP 	quest_pun: autoDraw = False
+29.2319 	EXP 	ISI2: autoDraw = False
+29.2319 	EXP 	feedback_pun: height = 1.0
+29.2319 	EXP 	feedback_pun: height = 1.0
+29.2319 	EXP 	feedback_pun: height = 1.0
+29.2319 	EXP 	feedback_pun: text = '#'
+29.2319 	EXP 	feedback_pun: height = 0.14
+29.2319 	EXP 	display_pun: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+29.2319 	EXP 	display_pun: height = 1.0
+29.2319 	EXP 	display_pun: height = 1.0
+29.2319 	EXP 	display_pun: height = 1.0
+29.2319 	EXP 	display_pun: text = 'no response'
+29.2319 	EXP 	display_pun: height = 0.08
+29.2319 	EXP 	ITI2_pun: height = 0.1
+29.2319 	EXP 	ITI2_pun: height = 0.1
+29.2319 	EXP 	ITI2_pun: height = 0.1
+29.2319 	EXP 	ITI2_pun: text = '+'
+29.2319 	EXP 	image_pun: image = 'images/moneyloss.jpg'
+29.2319 	EXP 	image_redx: image = 'images/symbolNOsuccess_small.png'
+29.2319 	EXP 	rect_out_pun: autoDraw = True
+29.2319 	EXP 	feedback_pun: autoDraw = True
+29.2319 	EXP 	display_pun: autoDraw = True
+29.2319 	EXP 	image_pun: autoDraw = True
+29.2319 	EXP 	image_redx: autoDraw = True
+29.2319 	EXP 	feedback_pun: height = 0.14
+29.2319 	EXP 	feedback_pun: height = 0.14
+29.2319 	EXP 	feedback_pun: height = 0.14
+29.2319 	EXP 	feedback_pun: text = '#'
+29.2319 	EXP 	display_pun: height = 0.08
+29.2319 	EXP 	display_pun: height = 0.08
+29.2319 	EXP 	display_pun: height = 0.08
+29.2319 	EXP 	display_pun: text = 'no response'
+30.1746 	EXP 	ITI2_pun: autoDraw = True
+30.2313 	EXP 	rect_out_pun: autoDraw = False
+30.2313 	EXP 	feedback_pun: autoDraw = False
+30.2313 	EXP 	display_pun: autoDraw = False
+30.2313 	EXP 	image_pun: autoDraw = False
+30.2313 	EXP 	image_redx: autoDraw = False
+34.1662 	EXP 	New trial (rep=0, index=1): OrderedDict([('win1lose0', 1)])
+34.1672 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+34.1673 	EXP 	New trial (rep=0, index=0): None
+34.1869 	EXP 	ITI2_pun: autoDraw = False
+34.1869 	EXP 	rect_out_pun: autoDraw = False
+34.1869 	EXP 	feedback_pun: autoDraw = False
+34.1869 	EXP 	display_pun: autoDraw = False
+34.1869 	EXP 	ITI2_pun: autoDraw = False
+34.1869 	EXP 	image_pun: autoDraw = False
+34.1869 	EXP 	image_redx: autoDraw = False
+34.1869 	EXP 	quest_rew: height = 0.14
+34.1869 	EXP 	ITI1_rew: height = 0.1
+34.1869 	EXP 	ITI1_rew: height = 0.1
+34.1869 	EXP 	ITI1_rew: height = 0.1
+34.1869 	EXP 	ITI1_rew: text = '+'
+34.1869 	EXP 	rect_resp_rew: autoDraw = True
+34.1869 	EXP 	quest_rew: autoDraw = True
+34.1869 	EXP 	quest_rew: height = 0.14
+34.1869 	EXP 	quest_rew: height = 0.14
+34.1869 	EXP 	quest_rew: height = 0.14
+34.1869 	EXP 	quest_rew: text = '?'
+34.5037 	DATA 	Keypress: b
+36.1566 	EXP 	ITI1_rew: autoDraw = True
+36.1766 	EXP 	rect_resp_rew: autoDraw = False
+36.1766 	EXP 	quest_rew: autoDraw = False
+41.1954 	EXP 	ITI1_rew: autoDraw = False
+41.1954 	EXP 	rect_resp_rew: autoDraw = False
+41.1954 	EXP 	quest_rew: autoDraw = False
+41.1954 	EXP 	ITI1_rew: autoDraw = False
+41.1954 	EXP 	feedback_rew: height = 0.14
+41.1954 	EXP 	display_rew: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+41.1954 	EXP 	display_rew: height = 1.0
+41.1954 	EXP 	display_rew: height = 1.0
+41.1954 	EXP 	display_rew: height = 1.0
+41.1954 	EXP 	display_rew: text = '+$1.00'
+41.1954 	EXP 	display_rew: height = 0.14
+41.1954 	EXP 	ITI2_rew: height = 0.1
+41.1954 	EXP 	ITI2_rew: height = 0.1
+41.1954 	EXP 	ITI2_rew: height = 0.1
+41.1954 	EXP 	ITI2_rew: text = '+'
+41.1954 	EXP 	image_rew: image = 'images/money.jpg'
+41.1954 	EXP 	image_greencheck: image = 'images/symbolsuccess_small.png'
+41.1954 	EXP 	rect_out_rew: autoDraw = True
+41.1954 	EXP 	feedback_rew: autoDraw = True
+41.1954 	EXP 	display_rew: autoDraw = True
+41.1954 	EXP 	image_rew: autoDraw = True
+41.1954 	EXP 	image_greencheck: autoDraw = True
+41.1954 	EXP 	display_rew: height = 0.14
+41.1954 	EXP 	display_rew: height = 0.14
+41.1954 	EXP 	display_rew: height = 0.14
+41.1954 	EXP 	display_rew: text = '+$1.00'
+42.1502 	EXP 	ITI2_rew: autoDraw = True
+42.1904 	EXP 	rect_out_rew: autoDraw = False
+42.1904 	EXP 	feedback_rew: autoDraw = False
+42.1904 	EXP 	display_rew: autoDraw = False
+42.1904 	EXP 	image_rew: autoDraw = False
+42.1904 	EXP 	image_greencheck: autoDraw = False
+48.1376 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+48.1381 	EXP 	New trial (rep=0, index=2): OrderedDict([('win1lose0', 0)])
+48.1389 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+48.1392 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+48.1394 	EXP 	New trial (rep=0, index=0): None
+48.1499 	EXP 	ITI2_rew: autoDraw = False
+48.1499 	EXP 	rect_out_rew: autoDraw = False
+48.1499 	EXP 	feedback_rew: autoDraw = False
+48.1499 	EXP 	display_rew: autoDraw = False
+48.1499 	EXP 	ITI2_rew: autoDraw = False
+48.1499 	EXP 	image_rew: autoDraw = False
+48.1499 	EXP 	image_greencheck: autoDraw = False
+48.1499 	EXP 	quest_pun: height = 0.14
+48.1499 	EXP 	ISI2: text = '+'
+48.1499 	EXP 	rect_resp_pun: autoDraw = True
+48.1499 	EXP 	quest_pun: autoDraw = True
+48.1499 	EXP 	quest_pun: height = 0.14
+48.1499 	EXP 	quest_pun: height = 0.14
+48.1499 	EXP 	quest_pun: height = 0.14
+48.1499 	EXP 	quest_pun: text = '?'
+48.4832 	DATA 	Keypress: y
+50.1256 	EXP 	ISI2: autoDraw = True
+50.1468 	EXP 	rect_resp_pun: autoDraw = False
+50.1468 	EXP 	quest_pun: autoDraw = False
+55.1415 	EXP 	ISI2: autoDraw = False
+55.1415 	EXP 	rect_resp_pun: autoDraw = False
+55.1415 	EXP 	quest_pun: autoDraw = False
+55.1415 	EXP 	ISI2: autoDraw = False
+55.1415 	EXP 	feedback_pun: height = 0.14
+55.1415 	EXP 	feedback_pun: height = 0.14
+55.1415 	EXP 	feedback_pun: height = 0.14
+55.1415 	EXP 	feedback_pun: text = 1
+55.1415 	EXP 	feedback_pun: height = 0.14
+55.1415 	EXP 	display_pun: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+55.1415 	EXP 	display_pun: height = 0.08
+55.1415 	EXP 	display_pun: height = 0.08
+55.1415 	EXP 	display_pun: height = 0.08
+55.1415 	EXP 	display_pun: text = '-$0.50'
+55.1415 	EXP 	display_pun: height = 0.14
+55.1415 	EXP 	ITI2_pun: text = '+'
+55.1415 	EXP 	image_pun: image = 'images/moneyloss.jpg'
+55.1415 	EXP 	image_redx: image = 'images/symbolNOsuccess_small.png'
+55.1415 	EXP 	rect_out_pun: autoDraw = True
+55.1415 	EXP 	feedback_pun: autoDraw = True
+55.1415 	EXP 	display_pun: autoDraw = True
+55.1415 	EXP 	image_pun: autoDraw = True
+55.1415 	EXP 	image_redx: autoDraw = True
+55.1415 	EXP 	feedback_pun: height = 0.14
+55.1415 	EXP 	feedback_pun: height = 0.14
+55.1415 	EXP 	feedback_pun: height = 0.14
+55.1415 	EXP 	feedback_pun: text = '1'
+55.1415 	EXP 	display_pun: height = 0.14
+55.1415 	EXP 	display_pun: height = 0.14
+55.1415 	EXP 	display_pun: height = 0.14
+55.1415 	EXP 	display_pun: text = '-$0.50'
+56.1126 	EXP 	ITI2_pun: autoDraw = True
+56.1375 	EXP 	rect_out_pun: autoDraw = False
+56.1375 	EXP 	feedback_pun: autoDraw = False
+56.1375 	EXP 	display_pun: autoDraw = False
+56.1375 	EXP 	image_pun: autoDraw = False
+56.1375 	EXP 	image_redx: autoDraw = False
+59.4256 	DATA 	Keypress: y
+60.0992 	EXP 	New trial (rep=0, index=3): OrderedDict([('win1lose0', 0)])
+60.1008 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+60.1012 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+60.1015 	EXP 	New trial (rep=0, index=0): None
+60.1104 	EXP 	ITI2_pun: autoDraw = False
+60.1104 	EXP 	rect_out_pun: autoDraw = False
+60.1104 	EXP 	feedback_pun: autoDraw = False
+60.1104 	EXP 	display_pun: autoDraw = False
+60.1104 	EXP 	ITI2_pun: autoDraw = False
+60.1104 	EXP 	image_pun: autoDraw = False
+60.1104 	EXP 	image_redx: autoDraw = False
+60.1104 	EXP 	quest_pun: height = 0.14
+60.1104 	EXP 	ISI2: text = '+'
+60.1104 	EXP 	rect_resp_pun: autoDraw = True
+60.1104 	EXP 	quest_pun: autoDraw = True
+60.1104 	EXP 	quest_pun: height = 0.14
+60.1104 	EXP 	quest_pun: height = 0.14
+60.1104 	EXP 	quest_pun: height = 0.14
+60.1104 	EXP 	quest_pun: text = '?'
+60.3948 	DATA 	Keypress: y
+62.0866 	EXP 	ISI2: autoDraw = True
+62.1049 	EXP 	rect_resp_pun: autoDraw = False
+62.1049 	EXP 	quest_pun: autoDraw = False
+65.0969 	EXP 	ISI2: autoDraw = False
+65.0969 	EXP 	rect_resp_pun: autoDraw = False
+65.0969 	EXP 	quest_pun: autoDraw = False
+65.0969 	EXP 	ISI2: autoDraw = False
+65.0969 	EXP 	feedback_pun: height = 0.14
+65.0969 	EXP 	feedback_pun: height = 0.14
+65.0969 	EXP 	feedback_pun: height = 0.14
+65.0969 	EXP 	feedback_pun: text = 2
+65.0969 	EXP 	feedback_pun: height = 0.14
+65.0969 	EXP 	display_pun: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+65.0969 	EXP 	display_pun: text = '-$0.50'
+65.0969 	EXP 	display_pun: height = 0.14
+65.0969 	EXP 	ITI2_pun: text = '+'
+65.0969 	EXP 	image_pun: image = 'images/moneyloss.jpg'
+65.0969 	EXP 	image_redx: image = 'images/symbolNOsuccess_small.png'
+65.0969 	EXP 	rect_out_pun: autoDraw = True
+65.0969 	EXP 	feedback_pun: autoDraw = True
+65.0969 	EXP 	display_pun: autoDraw = True
+65.0969 	EXP 	image_pun: autoDraw = True
+65.0969 	EXP 	image_redx: autoDraw = True
+65.0969 	EXP 	feedback_pun: height = 0.14
+65.0969 	EXP 	feedback_pun: height = 0.14
+65.0969 	EXP 	feedback_pun: height = 0.14
+65.0969 	EXP 	feedback_pun: text = '2'
+65.0969 	EXP 	display_pun: height = 0.14
+65.0969 	EXP 	display_pun: height = 0.14
+65.0969 	EXP 	display_pun: height = 0.14
+65.0969 	EXP 	display_pun: text = '-$0.50'
+66.0729 	EXP 	ITI2_pun: autoDraw = True
+66.0940 	EXP 	rect_out_pun: autoDraw = False
+66.0940 	EXP 	feedback_pun: autoDraw = False
+66.0940 	EXP 	display_pun: autoDraw = False
+66.0940 	EXP 	image_pun: autoDraw = False
+66.0940 	EXP 	image_redx: autoDraw = False
+67.1801 	DATA 	Keypress: escape
+67.3152 	EXP 	window1: mouseVisible = True
